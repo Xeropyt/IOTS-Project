@@ -20,7 +20,7 @@ ServoESP32-master can be installed by going to sketch > include library > includ
 
 **Header files**
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.002.png)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/322.png?raw=true)
 
 These are the header files used for the system.
 
