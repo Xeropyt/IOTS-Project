@@ -19,18 +19,16 @@
 #include <ArduinoJson.h>
 #include <Firebase_ESP_Client.h>
 
-const char* ssid = "homenet";
-const char* password = "password200";
+const char* ssid = //insert ssid here;
+const char* password = //insert password here;
 
 // Initialize Telegram BOT
-String BOTtoken = "5802909221:AAHUPudOYfvojIIh3doX7L2PjznRtKSlvfQ";  // your Bot Token (Get from Botfather)
-//String BOTtoken2 = "6006948457:AAEwRlJpugnN6VQxYtBduiAlNSpO684n-2U";
+String BOTtoken = // your Bot Token (Get from Botfather);
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-String CHAT_ID = "919886303";
-String CHAT_ID2 = "-853131344";
+String CHAT_ID = //group chat id, found in web browser when opening group chat;
 
 bool sendPhoto = false;
 
@@ -44,9 +42,9 @@ bool flashState = LOW;
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 #define API_KEY "AIzaSyDvSSiL_4vqiZdBlvi1VhEcmObE9pxf19A"
-#define USER_EMAIL "jt.tabaluyan@gmail.com"
-#define USER_PASSWORD "Ha1cyon_12345"
-#define DATABASE_URL "https://iots-door-to-door-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define USER_EMAIL //Define your username here
+#define USER_PASSWORD //Define your password here
+#define DATABASE_URL //Define your URL found in Firebase config{}
 FirebaseData fbdo;
 FirebaseAuth auth;
 FirebaseConfig config;
