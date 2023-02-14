@@ -1,6 +1,6 @@
 ## Potential Improvements
 
-1. Hosting the website on a cloud server. Removes the ability to stop the system by bringing down the database. 
+### 1. Hosting the website on a cloud server. Removes the ability to stop the system by bringing down the database. 
 
 An Example of this would be by using Firebase Hosting which we have tested:
 
@@ -28,4 +28,4 @@ e. run the firebase deploy command
 
 ![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
 
-2. Password requirements. This is due to the limitations of firebase as we are using it for data encryption.
+### 2. Password requirements. This is due to the limitations of firebase as we are using it for data encryption.
