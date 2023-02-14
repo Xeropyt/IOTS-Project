@@ -21,6 +21,9 @@ If needed, you may enable Google Analytics for your project.
 
 For this example, we will go through the steps when enabled
 
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
+
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Step3Firebase.jpeg?raw=true)
 Choose your region
 
 If Google Analytics was selected previously, accept the terms
