@@ -10,7 +10,7 @@ Name your project, for this example we will be naming our project![](Aspose.Word
 
 Note: This is not our actual project![](Aspose.Words.b4fdc2ab-c457-4bd3-a99d-5c9362d08aee.003.png)
 
-Click continue![](Aspose.Words.b4fdc2ab-c457-4bd3-a99d-5c9362d08aee.004.jpeg)
+Click continue!![Image not found!](https://github.com/[Xeropyt]/[IOTS-Project]/Images/image.jpg?raw=true)
 
 If needed, you may enable Google Analytics for your project.
 
