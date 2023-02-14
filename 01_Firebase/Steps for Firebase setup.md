@@ -78,5 +78,8 @@ From the 'users' tab you may add as many users as you want
 
 **Step 3: Add Real-time Database**
 
-![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/config1.png?raw=true)
+
+On the top left of your Firebase Console, click the settings icon
+
 ![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
