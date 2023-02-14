@@ -1,22 +1,22 @@
 ﻿**Step 1: Create your Firebase Project**
 
-![](Aspose.Words.b4fdc2ab-c457-4bd3-a99d-5c9362d08aee.001.jpeg)
+![Image not found!](https://github.com/[Xeropyt]/[IOTS-Project]/Images/Border.jpg?raw=true)
 
 Firstly, go on Firebase and create a new project.
 
-Name your project, for this example we will be naming our project![](Aspose.Words.b4fdc2ab-c457-4bd3-a99d-5c9362d08aee.002.jpeg)
+Name your project, for this example we will be naming our project!
 
 “End-to-End Example”
 
-Note: This is not our actual project![](Aspose.Words.b4fdc2ab-c457-4bd3-a99d-5c9362d08aee.003.png)
+Note: This is not our actual project!
 
-Click continue!![Image not found!](https://github.com/[Xeropyt]/[IOTS-Project]/Images/image.jpg?raw=true)
+Click continue!
 
 If needed, you may enable Google Analytics for your project.
 
-For this example, we will go through the steps when enabled![](Aspose.Words.b4fdc2ab-c457-4bd3-a99d-5c9362d08aee.003.png)
+For this example, we will go through the steps when enabled
 
-Choose your region![](Aspose.Words.b4fdc2ab-c457-4bd3-a99d-5c9362d08aee.005.jpeg)
+Choose your region
 
 If Google Analytics was selected previously, accept the terms
 
