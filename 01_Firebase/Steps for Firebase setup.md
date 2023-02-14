@@ -103,3 +103,15 @@ For this project, we left it unchecked as we are hosting our website locally
 ![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
 
 ![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/config4.1.png?raw=true)
+
+Here you have an option for which method you want to use to import Firebase libraries
+
+This method uses npm or node.js to import the libraries
+
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
+
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/config4.1.png?raw=true)
+
+In this example we used the script method to import our libraries
+
+Simply copy and paste the snippet given into your code inside a <script type= "module"> and you're done!
