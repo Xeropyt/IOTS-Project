@@ -1,6 +1,6 @@
 ﻿**Step 1: Create your Firebase Project**
 
-![Image not found!](https://github.com/[Xeropyt]/[IOTS-Project]/Images/Border.jpg?raw=true)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/Images/Border.jpg?raw=true)
 
 Firstly, go on Firebase and create a new project.
 
