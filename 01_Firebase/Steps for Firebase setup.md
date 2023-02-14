@@ -83,3 +83,23 @@ From the 'users' tab you may add as many users as you want
 On the top left of your Firebase Console, click the settings icon
 
 ![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
+
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/config2.png?raw=true)
+
+Here you can choose the type of app you want connected to your Firebase services
+
+For this example we are creating a web app
+
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
+
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/config3.png?raw=true)
+
+Add the name of your app
+
+Enabling firebase hosting will allow you to host your app over the internet
+
+For this project, we left it unchecked as we are hosting our website locally
+
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
+
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/config4.1.png?raw=true)
