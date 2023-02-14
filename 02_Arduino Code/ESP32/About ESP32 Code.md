@@ -38,7 +38,7 @@ These are the header files used for the system.
 
 ## void setup()
 
-![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/328.png?raw=true)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/328.jpeg?raw=true)
 
 ## void loop()
 
@@ -48,7 +48,7 @@ Ultrasound code
 
 Send otp to database
 
-![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/330.png?raw=true)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/330.jpeg?raw=true)
 
 ![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/331.png?raw=true)
 
