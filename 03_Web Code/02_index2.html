@@ -1,0 +1,141 @@
+<html>
+
+<head>
+    <title>2-Factor Authentication</title>
+    <link rel="stylesheet" href="cssFile2.css">
+</head>
+
+<body>
+
+    <div class="login-box">
+        <div class="left">
+            <h1>OTP</h1>
+            <input type="text" id="otp" name="otp" placeholder="******" />
+            <input type="submit" id="Rotp" name="Rotp" value="Request OTP" />
+            <div id="conButton">
+            <input type="submit" id="confirmO" hidden name="confirm" value="Confirm" />
+            
+            <div id="expiry" hidden>Your OTP expires in: <span id="time">01:30</span></div>
+            <p id ="message" hidden>Your OTP expired</p>
+        </div>
+        </div>
+    </div>
+    <div class="right">
+</div>
+</body>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+    import { getDatabase, set, ref, get, update, onValue, child } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyDvSSiL_4vqiZdBlvi1VhEcmObE9pxf19A",
+        authDomain: "iots-door-to-door.firebaseapp.com",
+        databaseURL: "https://iots-door-to-door-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "iots-door-to-door",
+        storageBucket: "iots-door-to-door.appspot.com",
+        messagingSenderId: "944195630637",
+        appId: "1:944195630637:web:b708a357968d4e596baaa4",
+        measurementId: "G-08BYTRGKP6",
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    const auth = getAuth();
+    const dbRef = ref(getDatabase());
+    var attempt = 0;
+
+    Rotp.addEventListener('click', (e) => {
+        set(ref(database, 'otp/'), {
+            cfm: 1,
+        })
+        alert('OTP Requested!');
+        document.getElementById("confirmO").hidden = false;
+        document.getElementById("expiry").hidden = false;
+        document.getElementById("message").hidden = true;
+
+        var fiveMinutes = 90,
+        display = document.querySelector('#time');
+        startTimer(fiveMinutes, display);
+    });
+
+    confirmO.addEventListener('click', (e) => {
+        var otp = document.getElementById('otp').value; 
+
+        const db = getDatabase();
+        const OTP = ref(db, 'otp/num/');
+        var data;
+        onValue(OTP, (snapshot) => {
+            data = snapshot.val();
+            console.log(OTP);
+        });
+
+        setTimeout(function () {
+            if (otp == data) {
+                set(ref(database, 'door/'), {
+                    open: 1,
+                })
+                alert('Door Opened!');
+                set(ref(database, 'Fail/'), {
+                        fail: 0,
+                    });
+            } else {
+                alert('Wrong OTP');
+                get(child(dbRef, 'Fail/fail/')).then((snapshot)=> {
+                    if (snapshot.exists()) {
+                        attempt = snapshot.val();
+                    } else attempt =0;
+                    attempt ++;
+                    set(ref(database, 'Fail/'), {
+                        fail: attempt,
+                    });
+                }).catch((error)=>{
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
+
+                    alert(errorMessage);
+                });
+                if (attempt > 4) {
+                    document.getElementById("confirmO").hidden = true;
+                }
+            }
+        }, 1000) 
+    });
+
+    const user = auth.currentUser;
+    onAuthStateChanged(auth, (user) => {
+        if (user) {
+            const uid = user.uid;
+
+        } else {
+
+        }
+    });
+
+    function startTimer(duration, display) {
+            var timer = duration, minutes, seconds;
+            var objMyInterval = setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            display.textContent = minutes + ":" + seconds;
+
+            if (--timer < 0) {
+                clearInterval(objMyInterval);
+                document.getElementById("message").hidden = false;
+                document.getElementById("expiry").hidden = true;
+                set(ref(database, 'otp/'), {
+                    cfm: 1,
+                })
+                return;
+        }
+    }, 1000);
+}
+</script>
+
+</html>
