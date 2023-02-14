@@ -5,6 +5,9 @@
 ![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/FirebaseTitle.jpeg?raw=true)
 Firstly, go on Firebase and create a new project.
 
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
+
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/FirebaseStep1.png?raw=true)
 Name your project, for this example we will be naming our project!
 
 “End-to-End Example”
