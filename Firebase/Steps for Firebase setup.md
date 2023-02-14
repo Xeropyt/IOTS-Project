@@ -30,4 +30,6 @@ If Google Analytics was selected previously, accept the terms
 
 Create your project!
 
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/Border.png?raw=true)
+
 **Step 2: Create your Firebase Project**
