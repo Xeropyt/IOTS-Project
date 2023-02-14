@@ -26,17 +26,17 @@ These are the header files used for the system.
 
 **Definitions needed**
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.003.png)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/323.png?raw=true)
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.004.png)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/324.png?raw=true)
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.005.png)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/325.png?raw=true)
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.006.png)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/326.png?raw=true)
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.007.png)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/327.png?raw=true)
 
-**void setup()**
+## void setup()
 
 ![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.008.jpeg)
 
