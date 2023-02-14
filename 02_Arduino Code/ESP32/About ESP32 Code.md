@@ -38,22 +38,22 @@ These are the header files used for the system.
 
 ## void setup()
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.008.jpeg)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/328.png?raw=true)
 
-**void loop()**
+## void loop()
 
 Ultrasound code
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.009.png)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/329.png?raw=true)
 
 Send otp to database
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.010.jpeg)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/330.png?raw=true)
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.011.png)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/331.png?raw=true)
 
 Open lock code
 
 Generate OTP code
 
-![](Aspose.Words.921cebd0-e2fd-40a3-bba6-219666373839.012.png)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/332.png?raw=true)
