@@ -74,6 +74,7 @@
                 set(ref(database, 'Fail/'), {
                         fail: 0,
                     });
+                    document.location.href="index2.html";
             } else {
                 alert('Wrong OTP');
                 get(child(dbRef, 'Fail/fail/')).then((snapshot)=> {
