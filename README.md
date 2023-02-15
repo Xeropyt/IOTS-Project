@@ -13,3 +13,6 @@ In partial fulfillment for the module ET0731 IOT Security under Singapore Polyte
 > ESP32 CAM, a servo motor, an ultrasonic
 > sensor, a web interface, telegram,
 > and Firebase console.
+
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/proto1.jpeg?raw=true)
+![Image not found!](https://github.com/Xeropyt/IOTS-Project/blob/main/Images/proto2.jpeg?raw=true)
